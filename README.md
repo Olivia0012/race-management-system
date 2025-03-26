@@ -7,8 +7,6 @@ This system is developed in full stack, frontend is using React,TS, backend is u
 
 ## Project
 
-In the project directory, you can run:
-
 ### Frontend
 
 - add new race
@@ -23,17 +21,20 @@ In the project directory, you can run:
 
 ## Scripts
 
+In this project, you can run
+
 ```js
-// Frontend
-cd frontend
-npm start
-
-npm test -- --coverage
-
-
-// Backend
+// start server
 cd backend
+npm install
 npm start
 
-npm test -- --coverage
+npm run test -- --watchAll=false  --coverage
+
+// start app
+cd frontend
+npm install
+npm start
+
+npm run test -- --watchAll=false  --coverage
 ```
