@@ -17,7 +17,7 @@ This system is developed in full stack, frontend is using React,TS, backend is u
 
 - /api/races GET Fetch all races
 - /api/race POST Added new race
-- /api/race/:id PUT ecord final placements
+- /api/race/:id PUT Record final placements
 
 ## Scripts
 
